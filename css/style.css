@@ -4,6 +4,7 @@ body {
     line-height: 30px;
     color: #4F5665;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.woff2") format("woff2"),
@@ -12,14 +13,16 @@ body {
     font-weight: 400;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Medium.woff2") format("woff2"),
          url("Rubik-Medium.woff") format("woff");
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Bold.woff2") format("woff2"),
@@ -28,6 +31,7 @@ body {
     font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.eot") format("eot");
@@ -35,13 +39,15 @@ body {
     font-weight: 400;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Medium.eot") format("eot");
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Bold.eot") format("eot");
@@ -49,6 +55,7 @@ body {
     font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.ttf") format("ttf");
@@ -56,17 +63,179 @@ body {
     font-weight: 400;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Medium.ttf") format("ttf");
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-display: swap;
 }
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Bold.ttf") format("ttf");
     font-style: normal;
     font-weight: 700;
     font-display: swap;
+}
+
+.name {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    color:#0B132A;
+}
+
+.namebold {
+    font-weight: 700;
+}
+
+.link {
+    font-size: 16px;
+    line-height: 19px;
+    color:#4F5665;
+}
+
+.auth {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 700;
+    color:#0B132A;
+}
+
+.signup {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #F53855;
+    text-decoration: none;
+    width: 150px;
+    height: 45px;
+    border-radius: 50px;
+    border-color:#F53855;
+    background: #F5F5F5;
+}
+
+.heading {
+    font-size: 50px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.headingbold {
+    font-weight: 700;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.textbold {
+    font-weight: 700;
+}
+
+.getstarted {
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background: #F53838;
+    border-color: #F53838;
+}
+
+.amount {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.characteristic {
+    font-size: 20px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.subheading {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.feature {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.plan {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.option {
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+}
+
+.price {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #0B132A;
+}
+
+.mo {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #0B132A;
+}
+
+.select {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #F53838;
+    text-decoration: none;
+    width: 178px;
+    height: 45px;
+    border-radius: 50px;
+    border-color:#F53838;
+    background: #F5F5F5;
+}
+
+.selectchoose {
+    display: block;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+    width: 178px;
+    height: 45px;
+    border-radius: 50px;
+    border-color:#F53838;
+    background: #F53838;
 }
