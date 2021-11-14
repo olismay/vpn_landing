@@ -9,7 +9,6 @@ body {
     font-family: "Rubik";
     src: url("Rubik-Regular.woff2") format("woff2"),
          url("Rubik-Regular.woff") format("woff");
-    font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
@@ -18,8 +17,7 @@ body {
     font-family: "Rubik";
     src: url("Rubik-Medium.woff2") format("woff2"),
          url("Rubik-Medium.woff") format("woff");
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-display: swap;
 }
 
@@ -27,7 +25,6 @@ body {
     font-family: "Rubik";
     src: url("Rubik-Bold.woff2") format("woff2"),
          url("Rubik-Bold.woff") format("woff");
-    font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
@@ -35,7 +32,6 @@ body {
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.eot") format("eot");
-    font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
@@ -43,15 +39,13 @@ body {
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Medium.eot") format("eot");
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Bold.eot") format("eot");
-    font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
@@ -59,7 +53,6 @@ body {
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.ttf") format("ttf");
-    font-style: normal;
     font-weight: 400;
     font-display: swap;
 }
@@ -67,15 +60,13 @@ body {
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Medium.ttf") format("ttf");
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Bold.ttf") format("ttf");
-    font-style: normal;
     font-weight: 700;
     font-display: swap;
 }
@@ -83,11 +74,11 @@ body {
 .name {
     font-size: 20px;
     line-height: 24px;
-    font-weight: 700;
+    font-weight: 500;
     color:#0B132A;
 }
 
-.namebold {
+.logo {
     font-weight: 700;
 }
 
@@ -100,11 +91,13 @@ body {
 .auth {
     font-size: 16px;
     line-height: 19px;
-    font-weight: 700;
+    font-weight: 500;
     color:#0B132A;
+    background: transparent;
+    border: 0;
 }
 
-.signup {
+.sign-up {
     display: block;
     font-size: 16px;
     line-height: 19px;
@@ -115,17 +108,17 @@ body {
     height: 45px;
     border-radius: 50px;
     border-color:#F53855;
-    background: #F5F5F5;
+    background-color: #F6F6F6;
 }
 
 .heading {
     font-size: 50px;
     line-height: 70px;
-    font-weight: 700;
+    font-weight: 500;
     color: #0B132A;
 }
 
-.headingbold {
+.heading-logo {
     font-weight: 700;
 }
 
@@ -135,11 +128,11 @@ body {
     color: #4F5665;
 }
 
-.textbold {
-    font-weight: 700;
+.text-logo {
+    font-weight: 500;
 }
 
-.getstarted {
+.get-started {
     display: block;
     font-size: 16px;
     line-height: 25px;
@@ -149,8 +142,8 @@ body {
     width: 250px;
     height: 60px;
     border-radius: 10px;
-    background: #F53838;
-    border-color: #F53838;
+    background-color: #F53838;
+    border: #F53838;
 }
 
 .amount {
@@ -169,7 +162,7 @@ body {
 .subheading {
     font-size: 35px;
     line-height: 50px;
-    font-weight: 700;
+    font-weight: 500;
     color: #0B132A;
 }
 
@@ -188,7 +181,7 @@ body {
 .plan {
     font-size: 18px;
     line-height: 30px;
-    font-weight: 700;
+    font-weight: 500;
     color: #0B132A;
 }
 
@@ -198,7 +191,7 @@ body {
     color: #4F5665;
 }
 
-.price {
+.dollar {
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
@@ -223,10 +216,10 @@ body {
     height: 45px;
     border-radius: 50px;
     border-color:#F53838;
-    background: #F5F5F5;
+    background-color: #F5F5F5;
 }
 
-.selectchoose {
+.select-chosen {
     display: block;
     font-size: 16px;
     line-height: 19px;
@@ -237,5 +230,5 @@ body {
     height: 45px;
     border-radius: 50px;
     border-color:#F53838;
-    background: #F53838;
+    background-color: #F53838;
 }
