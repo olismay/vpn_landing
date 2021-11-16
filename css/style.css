@@ -107,8 +107,8 @@ body {
     width: 150px;
     height: 45px;
     border-radius: 50px;
-    border-color:#F53855;
-    background-color: #F6F6F6;
+    border: 2px solid #F53855;
+    background-color: #FFFFFF;
 }
 
 .heading {
@@ -125,11 +125,12 @@ body {
 .text {
     font-size: 16px;
     line-height: 30px;
+    font-weight: 500;
     color: #4F5665;
 }
 
 .text-logo {
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .get-started {
@@ -191,7 +192,7 @@ body {
     color: #4F5665;
 }
 
-.dollar {
+.price {
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
@@ -216,7 +217,8 @@ body {
     height: 45px;
     border-radius: 50px;
     border-color:#F53838;
-    background-color: #F5F5F5;
+    border: 2px solid #F53855;
+    background-color: #FFFFFF;
 }
 
 .select-chosen {
@@ -229,6 +231,6 @@ body {
     width: 178px;
     height: 45px;
     border-radius: 50px;
-    border-color:#F53838;
+    border: 2px solid #F53838;
     background-color: #F53838;
 }
