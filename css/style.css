@@ -5,6 +5,14 @@ body {
     color: #4F5665;
 }
 
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
 @font-face {
     font-family: "Rubik";
     src: url("Rubik-Regular.woff2") format("woff2"),
@@ -111,6 +119,7 @@ body {
     border: 2px solid #F53855;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .heading {
@@ -147,6 +156,7 @@ body {
     border-radius: 10px;
     background-color: #F53838;
     border: #F53838;
+    cursor: pointer;
 }
 
 .amount {
@@ -222,6 +232,7 @@ body {
     border: 2px solid #F53855;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
     background-color: #FFFFFF;
+    cursor: pointer;
 }
 
 .select-chosen {
@@ -237,6 +248,7 @@ body {
     border: 2px solid #F53838;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
     background-color: #F53838;
+    cursor: pointer;
 }
 
 .sign-up:hover {
@@ -247,6 +259,16 @@ body {
 .sign-up:active {
     color: #F53855;
     background-color: #fef3f5;
+}
+
+.get-started:hover {
+    color: #FFFFFF;
+    background-color: #FA6969;
+}
+
+.get-started:active {
+    color: #FFFFFF;
+    background-color: #F53838;
 }
 
 .select:hover {
