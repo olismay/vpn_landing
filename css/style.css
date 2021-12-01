@@ -3,6 +3,27 @@ body {
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -79,10 +100,36 @@ body {
     font-display: swap;
 }
 
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 92px;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-right: 158px;
+}
+
+.menu {
+    display: flex;
+}
+
+.link-item:not(:last-child) {
+    padding-right: 40px;
+}
+
 .link {
     font-size: 16px;
     line-height: 19px;
     color:#4F5665;
+    text-decoration: none;
     transition: color cubic-bezier(0.075, 0.82, 0.165, 1) 1s
 }
 
@@ -91,8 +138,15 @@ body {
     line-height: 19px;
     font-weight: 500;
     color:#0B132A;
-    background: transparent;
     border: 0;
+    background: transparent;
+    padding-right: 31px;
+}
+
+.auth-wrapper {
+    display: flex;
+    margin-top: 40px;
+    align-items: baseline;
 }
 
 .sign-up {
