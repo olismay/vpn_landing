@@ -1,5 +1,5 @@
 body {
-    font-family: "Rubik", "Arial", sans-serif;
+    font-family: 'Rubik', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
@@ -35,67 +35,67 @@ p {
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.woff2") format("woff2"),
-         url("Rubik-Regular.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.woff2') format('woff2'),
+         url('Rubik-Regular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.woff2") format("woff2"),
-         url("Rubik-Medium.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.woff2') format('woff2'),
+         url('Rubik-Medium.woff') format('woff');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.woff2") format("woff2"),
-         url("Rubik-Bold.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.woff2') format('woff2'),
+         url('Rubik-Bold.woff') format('woff');
     font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.eot') format('eot');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.eot') format('eot');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot') format('eot');
     font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.ttf') format('ttf');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.ttf') format('ttf');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.ttf') format('ttf');
     font-weight: 700;
     font-display: swap;
 }
@@ -105,7 +105,7 @@ p {
     justify-content: space-between;
     max-width: 1140px;
     margin: 0 auto;
-    padding-bottom: 92px;
+    margin-bottom: 87px;
 }
 
 .nav {
@@ -165,11 +165,22 @@ p {
     cursor: pointer;
 }
 
+.text-logo {
+    font-weight: 700;
+}
+
+.intro-wrapper {
+    display: flex;
+    max-width: 1207px;
+    margin: 0 auto;
+}
+
 .heading {
     font-size: 50px;
     line-height: 70px;
     font-weight: 500;
     color: #0B132A;
+    margin: 5px 41px 20px 0px;
 }
 
 .heading-logo {
@@ -181,10 +192,7 @@ p {
     line-height: 30px;
     font-weight: 500;
     color: #4F5665;
-}
-
-.text-logo {
-    font-weight: 700;
+    margin: 0px 41px 53px 0px;
 }
 
 .get-started {
@@ -200,6 +208,7 @@ p {
     background-color: #F53838;
     border: #F53838;
     cursor: pointer;
+    margin: 0px 345px 21px 0px;
 }
 
 .amount {
