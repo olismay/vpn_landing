@@ -286,6 +286,48 @@ p {
     margin-bottom: 21px;
 }
 
+.subheading-price {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #0B132A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description-price {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.offer-wrapper {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.offer-wrapper:last-child {
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+}
+
+.box {
+    margin: 80px 92px 30px 92px;
+}
+
 .feature {
     font-size: 16px;
     line-height: 30px;
@@ -297,12 +339,23 @@ p {
     line-height: 30px;
     font-weight: 500;
     color: #0B132A;
+    margin-bottom: 30px;
 }
 
 .option {
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
+    margin: 70px;
+}
+
+.option-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.check-wrapper {
+    margin-right: 20px;
 }
 
 .price {
@@ -310,6 +363,7 @@ p {
     line-height: 30px;
     font-weight: 700;
     color: #0B132A;
+    margin-bottom: 30px;
 }
 
 .mo {
@@ -328,6 +382,7 @@ p {
     text-decoration: none;
     width: 178px;
     height: 45px;
+    margin: 0px 76px 49px 76px;
     border-radius: 50px;
     border-color:#F53838;
     border: 2px solid #F53855;
@@ -345,6 +400,7 @@ p {
     text-decoration: none;
     width: 178px;
     height: 45px;
+    margin: 0px 76px 49px 76px;
     border-radius: 50px;
     border: 2px solid #F53838;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
