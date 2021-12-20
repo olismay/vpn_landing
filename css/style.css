@@ -108,6 +108,11 @@ p {
     margin-bottom: 87px;
 }
 
+.main-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .nav {
     display: flex;
     margin-top: 50px;
@@ -180,7 +185,7 @@ p {
     line-height: 70px;
     font-weight: 500;
     color: #0B132A;
-    margin: 5px 41px 20px 0px;
+    margin: 5px 0px 20px 0px;
 }
 
 .heading-logo {
@@ -192,7 +197,7 @@ p {
     line-height: 30px;
     font-weight: 500;
     color: #4F5665;
-    margin: 0px 41px 53px 0px;
+    margin: 0px 0px 53px 0px;
 }
 
 .get-started {
@@ -211,11 +216,48 @@ p {
     margin: 0px 345px 21px 0px;
 }
 
+.aboutcompany {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 106px;
+    margin-bottom: 96px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.innumbers:first-child {
+    padding: 68px 130px 68px 91px;
+}
+
+.innumbers:nth-child(2) {
+    padding: 68px 134px 68px 113px;
+}
+
+.innumbers:last-child {
+    padding: 68px 90px 68px 91px;
+}
+
+.innumbers {
+    display: flex;
+}
+
+.info-wrapper {
+    margin-left: 37px;
+}
+
 .amount {
     font-size: 25px;
     line-height: 30px;
     font-weight: 700;
     color: #0B132A;
+}
+
+.privilege {
+    display: flex;
+}
+
+.manshow {
+    margin: 34px 170px 211px 0px;
 }
 
 .characteristic {
@@ -227,14 +269,21 @@ p {
 .subheading {
     font-size: 35px;
     line-height: 50px;
-    font-weight: 500;
+    font-weight: 700;
     color: #0B132A;
+    margin: 54px 44px 20px 0px;
 }
 
 .description {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+    margin-bottom: 25px;
+}
+
+.privilege-wrapper {
+    display: flex;
+    margin-bottom: 21px;
 }
 
 .feature {
