@@ -1,8 +1,29 @@
 body {
-    font-family: "Rubik", "Arial", sans-serif;
+    font-family: 'Rubik', 'Arial', sans-serif;
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -14,75 +35,106 @@ body {
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.woff2") format("woff2"),
-         url("Rubik-Regular.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.woff2') format('woff2'),
+         url('Rubik-Regular.woff') format('woff');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.woff2") format("woff2"),
-         url("Rubik-Medium.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.woff2') format('woff2'),
+         url('Rubik-Medium.woff') format('woff');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.woff2") format("woff2"),
-         url("Rubik-Bold.woff") format("woff");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.woff2') format('woff2'),
+         url('Rubik-Bold.woff') format('woff');
     font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.eot') format('eot');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.eot') format('eot');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.eot") format("eot");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.eot') format('eot');
     font-weight: 700;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Regular.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Regular.ttf') format('ttf');
     font-weight: 400;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Medium.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Medium.ttf') format('ttf');
     font-weight: 500;
     font-display: swap;
 }
 
 @font-face {
-    font-family: "Rubik";
-    src: url("Rubik-Bold.ttf") format("ttf");
+    font-family: 'Rubik';
+    src: url('Rubik-Bold.ttf') format('ttf');
     font-weight: 700;
     font-display: swap;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 87px;
+}
+
+.main-wrapper {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    margin-top: 50px;
+}
+
+.logo {
+    margin-right: 158px;
+}
+
+.menu {
+    display: flex;
+}
+
+.link-item:not(:last-child) {
+    padding-right: 40px;
 }
 
 .link {
     font-size: 16px;
     line-height: 19px;
     color:#4F5665;
+    text-decoration: none;
     transition: color cubic-bezier(0.075, 0.82, 0.165, 1) 1s
 }
 
@@ -91,8 +143,15 @@ body {
     line-height: 19px;
     font-weight: 500;
     color:#0B132A;
-    background: transparent;
     border: 0;
+    background: transparent;
+    padding-right: 31px;
+}
+
+.auth-wrapper {
+    display: flex;
+    margin-top: 40px;
+    align-items: baseline;
 }
 
 .sign-up {
@@ -111,11 +170,22 @@ body {
     cursor: pointer;
 }
 
+.text-logo {
+    font-weight: 700;
+}
+
+.intro-wrapper {
+    display: flex;
+    max-width: 1207px;
+    margin: 0 auto;
+}
+
 .heading {
     font-size: 50px;
     line-height: 70px;
     font-weight: 500;
     color: #0B132A;
+    margin: 5px 0px 20px 0px;
 }
 
 .heading-logo {
@@ -127,10 +197,7 @@ body {
     line-height: 30px;
     font-weight: 500;
     color: #4F5665;
-}
-
-.text-logo {
-    font-weight: 700;
+    margin: 0px 0px 53px 0px;
 }
 
 .get-started {
@@ -146,6 +213,36 @@ body {
     background-color: #F53838;
     border: #F53838;
     cursor: pointer;
+    margin: 0px 345px 21px 0px;
+}
+
+.aboutcompany {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 106px;
+    margin-bottom: 96px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.innumbers:first-child {
+    padding: 68px 130px 68px 91px;
+}
+
+.innumbers:nth-child(2) {
+    padding: 68px 134px 68px 113px;
+}
+
+.innumbers:last-child {
+    padding: 68px 90px 68px 91px;
+}
+
+.innumbers {
+    display: flex;
+}
+
+.info-wrapper {
+    margin-left: 37px;
 }
 
 .amount {
@@ -153,6 +250,14 @@ body {
     line-height: 30px;
     font-weight: 700;
     color: #0B132A;
+}
+
+.privilege {
+    display: flex;
+}
+
+.manshow {
+    margin: 34px 170px 211px 0px;
 }
 
 .characteristic {
@@ -164,20 +269,74 @@ body {
 .subheading {
     font-size: 35px;
     line-height: 50px;
-    font-weight: 500;
+    font-weight: 700;
     color: #0B132A;
+    margin: 54px 44px 20px 0px;
 }
 
 .description {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+    margin-bottom: 25px;
+}
+
+.privilege-wrapper {
+    display: flex;
+    margin-bottom: 21px;
+    align-items: center;
+}
+
+.subheading-price {
+    font-size: 35px;
+    line-height: 50px;
+    font-weight: 700;
+    color: #0B132A;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description-price {
+    font-size: 16px;
+    line-height: 30px;
+    color: #4F5665;
+    max-width: 555px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.offer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+}
+
+.offer-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.offer-wrapper:last-child {
+    background: #FFFFFF;
+    border: 2px solid #F53838;
+    border-radius: 10px;
+}
+
+.box {
+    margin: 80px 92px 30px 92px;
 }
 
 .feature {
     font-size: 16px;
     line-height: 30px;
     color: #4F5665;
+    margin-left: 10px;
 }
 
 .plan {
@@ -185,12 +344,24 @@ body {
     line-height: 30px;
     font-weight: 500;
     color: #0B132A;
+    margin-bottom: 30px;
 }
 
 .option {
     font-size: 14px;
     line-height: 30px;
     color: #4F5665;
+    margin: 70px;
+}
+
+.option-wrapper {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.check-wrapper {
+    margin-right: 20px;
 }
 
 .price {
@@ -198,6 +369,7 @@ body {
     line-height: 30px;
     font-weight: 700;
     color: #0B132A;
+    margin-bottom: 30px;
 }
 
 .mo {
@@ -216,6 +388,7 @@ body {
     text-decoration: none;
     width: 178px;
     height: 45px;
+    margin: 0px 76px 49px 76px;
     border-radius: 50px;
     border-color:#F53838;
     border: 2px solid #F53855;
@@ -233,6 +406,7 @@ body {
     text-decoration: none;
     width: 178px;
     height: 45px;
+    margin: 0px 76px 49px 76px;
     border-radius: 50px;
     border: 2px solid #F53838;
     transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 2s;
